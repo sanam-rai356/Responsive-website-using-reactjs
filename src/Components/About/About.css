@@ -1,0 +1,58 @@
+.about{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutLeft{
+    flex-basis: 40%;
+    position: relative;
+}
+
+
+
+.aboutImg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.PlayIcon{
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.aboutRight{
+    flex-basis: 56%;
+}
+
+.aboutRight h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #212EA0;
+}
+
+.aboutRight h2{
+    font-size: 35px;
+    color: #000F3B;
+    margin: 10px 0;
+    max-width: 400px;
+}
+
+.aboutRight p{
+    color: #676767;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 500px){
+    .about{
+        width: 95%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
